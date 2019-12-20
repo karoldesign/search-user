@@ -1,0 +1,3 @@
+<section class="user-list">
+  <app-user *ngFor="let item of data | stringfilter:userFilter; let indice=index" [(data)]="item"></app-user>
+</section>

@@ -1,0 +1,22 @@
+.title-section {
+  width: 100vw;
+  height: 30vw;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(300px, auto);
+  @media (min-width: 500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  app-post {
+    display: flex;
+    background-color: #9DB6EC;
+  }
+}

@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .name {
+      color: white;
+      font-size: 1.3rem;
+    }
+  }
+}
